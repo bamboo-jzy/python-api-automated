@@ -1,2 +1,2 @@
 *.log
-config/database.toml
+database.toml
