@@ -167,3 +167,21 @@
 2026-03-16 16:18:52 - DEBUG - file_data_reader.py:_read_excel:196 - Excel 读取成功 | 形状(3, 4) | 列预览: ['n1', 'n2', 'n3']... (共4列)
 2026-03-16 16:18:52 - DEBUG - file_data_reader.py:read:259 - 读取完成 [.xlsx] test.xlsx
 2026-03-16 16:18:52 - DEBUG - file_data_reader.py:read:259 - 读取完成 [.xlsx] test.xlsx
+2026-03-16 16:31:53 - DEBUG - file_data_reader.py:__init__:84 - 初始化文件读取器: test.xlsx (格式: .xlsx)
+2026-03-16 16:31:53 - DEBUG - file_data_reader.py:__init__:84 - 初始化文件读取器: test.xlsx (格式: .xlsx)
+2026-03-16 16:31:53 - INFO - file_data_reader.py:read:240 - 开始读取 [.xlsx] test.xlsx
+2026-03-16 16:31:53 - INFO - file_data_reader.py:read:240 - 开始读取 [.xlsx] test.xlsx
+2026-03-16 16:31:53 - DEBUG - file_data_reader.py:_read_excel:188 - 读取 Excel: test.xlsx
+2026-03-16 16:31:53 - DEBUG - file_data_reader.py:_read_excel:188 - 读取 Excel: test.xlsx
+2026-03-16 16:31:53 - ERROR - file_data_reader.py:read:264 - 读取失败 [.xlsx] test.xlsx: `Import openpyxl` failed.  Use pip or conda to install the openpyxl package.
+2026-03-16 16:31:53 - ERROR - file_data_reader.py:read:264 - 读取失败 [.xlsx] test.xlsx: `Import openpyxl` failed.  Use pip or conda to install the openpyxl package.
+2026-03-16 16:32:19 - DEBUG - file_data_reader.py:__init__:84 - 初始化文件读取器: test.xlsx (格式: .xlsx)
+2026-03-16 16:32:19 - DEBUG - file_data_reader.py:__init__:84 - 初始化文件读取器: test.xlsx (格式: .xlsx)
+2026-03-16 16:32:19 - INFO - file_data_reader.py:read:240 - 开始读取 [.xlsx] test.xlsx
+2026-03-16 16:32:19 - INFO - file_data_reader.py:read:240 - 开始读取 [.xlsx] test.xlsx
+2026-03-16 16:32:19 - DEBUG - file_data_reader.py:_read_excel:188 - 读取 Excel: test.xlsx
+2026-03-16 16:32:19 - DEBUG - file_data_reader.py:_read_excel:188 - 读取 Excel: test.xlsx
+2026-03-16 16:32:20 - DEBUG - file_data_reader.py:_read_excel:196 - Excel 读取成功 | 形状(3, 4) | 列预览: ['n1', 'n2', 'n3']... (共4列)
+2026-03-16 16:32:20 - DEBUG - file_data_reader.py:_read_excel:196 - Excel 读取成功 | 形状(3, 4) | 列预览: ['n1', 'n2', 'n3']... (共4列)
+2026-03-16 16:32:20 - DEBUG - file_data_reader.py:read:259 - 读取完成 [.xlsx] test.xlsx
+2026-03-16 16:32:20 - DEBUG - file_data_reader.py:read:259 - 读取完成 [.xlsx] test.xlsx
