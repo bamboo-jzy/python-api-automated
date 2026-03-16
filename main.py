@@ -69,3 +69,6 @@ def main():
     parser = parse_arguments()
     exit_code = run_tests(parser)
     sys.exit(exit_code)
+    
+if __name__ == "__main__":
+    main()
