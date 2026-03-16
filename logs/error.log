@@ -1,0 +1,3 @@
+2026-03-12 16:28:02 - ERROR - timeout.py:wrapper:68 - 测试用例 test_pardd 已执行超过 3 秒。
+2026-03-12 17:47:58 - ERROR - file_data_reader.py:read:264 - 读取失败 [.xls] test.xls: `Import xlrd` failed. Install xlrd >= 2.0.1 for xls Excel support Use pip or conda to install the xlrd package.
+2026-03-12 17:47:58 - ERROR - file_data_reader.py:read:264 - 读取失败 [.xls] test.xls: `Import xlrd` failed. Install xlrd >= 2.0.1 for xls Excel support Use pip or conda to install the xlrd package.
