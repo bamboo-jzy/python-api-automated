@@ -1,2 +1,3 @@
 *.log
 database.toml
+__pycache__/
