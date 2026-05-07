@@ -62,8 +62,8 @@ class DatabaseConnectionPoolStrategy(ABC):
             logger.debug(
                 f"加载配置: file='{self._config_file_path}', section='{self._base_name}'"
             )
-            reader = FileDataReader(self._config_file_path)
-            _, full_config = reader.read()
+            reader = FileDataReader()
+            full_config = reader.read_toml(self._config_file_path)
 
             if self._base_name not in full_config:
                 err_msg = f"配置缺失: section '{self._base_name}' 不存在于 {self._config_file_path}"
