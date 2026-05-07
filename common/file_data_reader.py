@@ -10,7 +10,7 @@
 """
 
 from pathlib import Path
-from typing import Any, Dict, Tuple, Union
+from typing import Any, Union
 
 import pandas as pd
 import tomllib
@@ -18,10 +18,6 @@ import tomllib
 from common.log_config import setup_logger
 
 logger = setup_logger()
-
-SUPPORTED_EXTENSIONS = {".json", ".csv", ".xlsx", ".xls", ".toml"}
-DEFAULT_ENCODING = "utf-8"
-
 
 class FileDataReader:
     def _validate_path(self, file_path: Union[str, Path]) -> Path:
